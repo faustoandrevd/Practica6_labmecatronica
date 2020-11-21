@@ -1,0 +1,25 @@
+ESP32
+
+
+Pinout: https://i0.wp.com/descubrearduino.com/wp-content/uploads/2020/06/ESP32-DEVKIT-V1-DOIT-Pinout.jpg?w=943&ssl=1
+
+esp8266: http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+***Pasos diferentes o adicionales:
+*Librería para esp32:
+https://dl.espressif.com/dl/package_esp32_index.json
+
+-> Instalar la librería desde Tools -> Device manager
+Buscar ESP32 e instalar la librería.
+
+*En la librería Blynk:
+File -> Examples -> Boards_Wifi -> ESP32_WIFI
+
+Modificarlo igual que el ESP8266 y cargarlo. 
+
+*En APP Blynk:
+Elegir ESP32 Dev Board (Wi-Fi)
+
+En pines elegir Digital -> gp(numero te tu pin)
+
+
